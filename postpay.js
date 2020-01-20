@@ -1,12 +1,12 @@
 /**
- * DevGenii: Dummy Postpay JavaScript
+ * DevGenii #8: Dummy Postpay JavaScript
  */
 define(function () {
     window.Postpay = {
-        render: function (el) {
+        renderElement: function (el) {
             el.innerHTML = 'Postpay!'
         },
-        hide: function (el) {
+        hideElement: function (el) {
             el.style.display = 'none';
         }
     };
