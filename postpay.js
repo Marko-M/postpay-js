@@ -2,7 +2,7 @@
  * DevGenii: Dummy Postpay JavaScript
  */
 define(function () {
-    return {
+    window.Postpay = {
         render: function (el) {
             el.innerHTML = 'Postpay!'
         },
@@ -10,4 +10,5 @@ define(function () {
             el.style.display = 'none';
         }
     };
+    return window.Postpay;
 });
